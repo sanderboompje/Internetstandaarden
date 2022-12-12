@@ -63,6 +63,16 @@ nav li a:hover:not(.active) {
     color: lightgrey;
 }
 
+main {
+    padding-top: 1%;
+    background-image: url(img/background1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4em;
+}
+
 .img_left {
     width: 15%;
     height: auto;
@@ -87,17 +97,7 @@ nav li a:hover:not(.active) {
     box-shadow: 0 0.25em 0.5em 0, 0 0.25em 0.5em 0;
 }
 
-main {
-    padding-top: 1%;
-    background-image: url(img/background1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 4em;
-}
-
-section {
+main section {
     background-color: gainsboro;
     margin-bottom: 2%;
     border-radius: 1em;
@@ -122,4 +122,11 @@ section {
 
 .col {
     background-color: gray;
+}
+
+iframe {
+    width: 100%;
+    border: 0;
+    border-radius: 1em;
+    height: 30em;
 }
