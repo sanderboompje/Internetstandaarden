@@ -1,22 +1,3 @@
-@media screen and (max-width: 920px) {
-    .img_left {
-        display: none;
-    }
-
-    .img_right {
-        display: none;
-    }
-
-    .right {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .left {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +13,6 @@ body {
     height: 24em;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 nav {
@@ -153,4 +133,32 @@ iframe {
     border: 0;
     border-radius: 1em;
     height: 30em;
+}
+
+@media screen and (max-width: 920px) {
+    .banner {
+        display: none;
+    }
+
+    .img_left {
+        display: none;
+    }
+
+    .img_right {
+        display: none;
+    }
+
+    .right {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .logo {
+        display: none;
+    }
 }
