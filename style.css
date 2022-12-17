@@ -20,13 +20,6 @@ nav {
     top: 0;
 }
 
-.logo {
-    width: auto;
-    height: 3.125em;
-    padding: 0;
-    float: right;
-}
-
 nav ul {
     list-style-type: none;
     margin: auto;
@@ -60,6 +53,13 @@ nav li a.active {
 nav li a:hover:not(.active) {
     background-color: #e8b923;
     color: lightgrey;
+}
+
+.logo {
+    width: auto;
+    height: 3.125em;
+    padding: 0;
+    float: right;
 }
 
 main {
@@ -135,6 +135,7 @@ iframe {
     height: 30em;
 }
 
+/* Responsive maken voor telefoons */
 @media screen and (max-width: 920px) {
     .banner {
         display: none;
@@ -149,13 +150,13 @@ iframe {
     }
 
     .right {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 6%;
+        margin-right: 6%;
     }
 
     .left {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 6%;
+        margin-right: 6%;
     }
 
     .logo {
