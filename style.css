@@ -60,6 +60,7 @@ nav li a:hover:not(.active) {
     height: 3.125em;
     padding: 0;
     float: right;
+    margin-top: -3.125em;
 }
 
 main {
@@ -136,7 +137,7 @@ iframe {
 }
 
 /* Responsive maken voor telefoons */
-@media screen and (max-width: 920px) {
+@media (max-width: 920px) {
     .banner {
         display: none;
     }
