@@ -4,169 +4,170 @@
     Pages
     https://sanderboompje.github.io/Internetstandaarden/ */
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica;
-    background-color: #1b1b1b;
-}
-
-.banner {
-    background-image: url(img/Cafe-Ko-logo.png);
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    height: 24em;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-nav {
-    position: sticky;
-    top: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    background-color: #1b1b1b;
-    width: 100%;
-    text-align: center
-}
-
-nav li {
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-}
-
-nav li a {
-    display: block;
-    color: lightgrey;
-    padding: 1em 1.25em;
-    margin: auto;
-    text-decoration: none;
-    border-radius: 0.5em;
-}
-
-nav li a.active {
-    background-color: #e8b923;
-    color: white;
-
-}
-
-nav li a:hover:not(.active) {
-    background-color: #e8b923;
-    color: lightgrey;
-}
-
-.logo {
-    width: auto;
-    height: 3.125em;
-    padding: 0;
-    float: right;
-    margin-top: -3.125em;
-}
-
-main {
-    padding-top: 1%;
-    background-image: url(img/background1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 4em;
-}
-
-.img_left {
-    width: 15em;
-    height: auto;
-    border-radius: 50%;
-    background-size: cover;
-    margin-bottom: -13%;
-    margin-left: 12%;
-    border: 0.3125em solid #cfd8dc;
-    box-shadow: 0 0.25em 0.5em 0, 0 0.25em 0.5em 0;
-}
-
-.img_right {
-    width: 15em;
-    height: auto;
-    border-radius: 50%;
-    background-size: cover;
-    margin-bottom: -13%;
-    margin-left: 74%;
-    border: 0.3125em solid #cfd8dc;
-    box-shadow: 0 0.25em 0.5em 0, 0 0.25em 0.5em 0;
-}
-
-main section {
-    padding: 1%;
-    margin-bottom: 2%;
-}
-
-.right {
-    margin-left: 40%;
-    margin-right: 20%;
-    background-color: gainsboro;
-    margin-bottom: 2%;
-    border-radius: 1em;
-    padding: 1%;
-    box-shadow: 0 0.25em 0.5em 0, 0 0.25em 0.5em 0;
-}
-
-.left {
-    margin-left: 20%;
-    margin-right: 40%;
-    background-color: gainsboro;
-    margin-bottom: 2%;
-    border-radius: 1em;
-    padding: 1%;
-    box-shadow: 0 0.25em 0.5em 0, 0 0.25em 0.5em 0;
-}
-
-.foot {
-    text-align: center;
-    color: #cfd8dc;
-}
-
-.col {
-    background-color: gray;
-}
-
-iframe {
-    width: 100%;
-    border: 0;
-    border-radius: 1em;
-    height: 30em;
-}
-
-/* Responsive maken voor telefoons */
-@media (max-width: 920px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica;
+        background-color: #1b1b1b;
+    }
+    
     .banner {
-        display: none;
+        background-image: url(img/Cafe-Ko-logo.png);
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 24em;
+        background-position: center top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
-
-    .img_left {
-        display: none;
+    
+    nav {
+        position: sticky;
+        top: 0;
     }
-
-    .img_right {
-        display: none;
+    
+    nav ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        background-color: #1b1b1b;
+        width: 100%;
+        text-align: center
     }
-
-    .right {
-        margin-left: 6%;
-        margin-right: 6%;
+    
+    nav li {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
     }
-
-    .left {
-        margin-left: 6%;
-        margin-right: 6%;
+    
+    nav li a {
+        display: block;
+        color: lightgrey;
+        padding: 1em 1.25em;
+        margin: auto;
+        text-decoration: none;
+        border-radius: 0.5em;
     }
-
+    
+    nav li a.active {
+        background-color: #e8b923;
+        color: white;
+    
+    }
+    
+    nav li a:hover:not(.active) {
+        background-color: #e8b923;
+        color: lightgrey;
+    }
+    
     .logo {
-        display: none;
+        width: auto;
+        height: 3.125em;
+        padding: 0;
+        float: right;
+        margin-top: -3.125em;
     }
-}
+    
+    main {
+        padding-top: 1%;
+        background-image: url(img/background1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 4em;
+    }
+    
+    .img_left {
+        width: 15em;
+        height: auto;
+        border-radius: 50%;
+        background-size: cover;
+        margin-bottom: -13%;
+        margin-left: 12%;
+        border: 0.3125em solid #cfd8dc;
+        box-shadow: 0 0.25em 0.5em 0, 0 0.25em 0.5em 0;
+    }
+    
+    .img_right {
+        width: 15em;
+        height: auto;
+        border-radius: 50%;
+        background-size: cover;
+        margin-bottom: -13%;
+        margin-left: 74%;
+        border: 0.3125em solid #cfd8dc;
+        box-shadow: 0 0.25em 0.5em 0, 0 0.25em 0.5em 0;
+    }
+    
+    main section {
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+    
+    .right {
+        margin-left: 40%;
+        margin-right: 20%;
+        background-color: gainsboro;
+        margin-bottom: 2%;
+        border-radius: 1em;
+        padding: 1%;
+        box-shadow: 0 0.25em 0.5em 0, 0 0.25em 0.5em 0;
+    }
+    
+    .left {
+        margin-left: 20%;
+        margin-right: 40%;
+        background-color: gainsboro;
+        margin-bottom: 2%;
+        border-radius: 1em;
+        padding: 1%;
+        box-shadow: 0 0.25em 0.5em 0, 0 0.25em 0.5em 0;
+    }
+    
+    .foot {
+        text-align: center;
+        color: #cfd8dc;
+    }
+    
+    .col {
+        background-color: gray;
+    }
+    
+    iframe {
+        width: 100%;
+        border: 0;
+        border-radius: 1em;
+        height: 30em;
+    }
+    
+    /* Responsive maken voor telefoons */
+    @media (max-width: 920px) {
+        .banner {
+            display: none;
+        }
+    
+        .img_left {
+            display: none;
+        }
+    
+        .img_right {
+            display: none;
+        }
+    
+        .right {
+            margin-left: 6%;
+            margin-right: 6%;
+        }
+    
+        .left {
+            margin-left: 6%;
+            margin-right: 6%;
+        }
+    
+        .logo {
+            display: none;
+        }
+    }
